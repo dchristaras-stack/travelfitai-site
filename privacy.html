@@ -70,10 +70,6 @@
           authentication credentials (passwords are handled by our
           authentication provider and are not stored by us in plain text).
         </li>
-        <li>
-          Guest mode: you may use limited features without creating an account.
-          Guest workout history is stored only on your device.
-        </li>
       </ul>
 
       <h3>2.2 Fitness profile and preferences</h3>
@@ -112,8 +108,7 @@
           rough usage counters such as free monthly generation limits)
         </li>
         <li>
-          On-device preferences stored locally (for example, guest history via
-          local storage)
+          Basic on-device app state needed to run the App on your device
         </li>
       </ul>
 
@@ -192,10 +187,6 @@
         <li>
           Account profile data, workout history, and related cloud data are
           stored in Firebase (Firestore) associated with your user ID.
-        </li>
-        <li>
-          Guest-mode history remains on your device until you clear app data or
-          uninstall the App.
         </li>
         <li>
           We retain account data for as long as your account is active, or as
